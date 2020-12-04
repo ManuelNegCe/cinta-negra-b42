@@ -60,7 +60,7 @@ const getBreakingBadQuote = () => {
   })
 };
 
-// getBreakingBadQuote();
+getBreakingBadQuote();
 
 
 // 2) https://www.theaudiodb.com/api_guide.php
@@ -78,7 +78,7 @@ const getBandInfo = (band) => {
   });
 }
 
-getBandInfo('Simon and Garfunkel');
+// getBandInfo('Simon and Garfunkel');
 
 // 3) https://developer.tradier.com/
 //  -> Maneja Auth con OAuth
